@@ -26,7 +26,7 @@ const Hero = () => {
 
   return (
     <section className="main-container flex justify-center">
-      <div className="relative w-full h-[400px] overflow-hidden">
+      <div className="relative w-full h-[600px] overflow-hidden">
         {slides.map((slide, index) => (
           <div
             key={index}

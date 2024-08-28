@@ -46,9 +46,9 @@ export const COMMUNITY_CARDS_INFO = [
 export const PROJECTS_INFO = [
   {
     id: 0,
-    name: "Project 1",
+    name: "Debutanizer Vacuum Prevention",
     text: {
-      title: "Debutanizer Vacuum Prevention:",
+      title: "Debutanizer Vacuum Prevention",
       description: [
         "Strategically optimized the project scope by implementing rupture disk installation, resulting in a remarkable 75% reduction from the initial estimate provided at Gate 1 TEC (Total Estimated Cost).",
         "Collaborated with a diverse cross-functional team to address vacuum conditions in the tower during relief scenarios and to mitigate RC2 SHE risks with a $480/IRU and DCF of 3765%."
@@ -58,7 +58,7 @@ export const PROJECTS_INFO = [
   },
   {
     id: 1,
-    name: "Project 2",
+    name: "Third Process Gas Dryer",
     text: {
       title: "Third Process Gas Dryer",
       description: [
@@ -70,7 +70,7 @@ export const PROJECTS_INFO = [
   },
   {
     id: 2,
-    name: "Project 3",
+    name: "Fractionator Debottleneck Study",
     text: {
       title: "Fractionator Debottleneck Study",
       description: [
@@ -82,7 +82,7 @@ export const PROJECTS_INFO = [
   },
   {
     id: 3,
-    name: "Project 4",
+    name: "Elevated Flare Upgrade",
     text: {
       title: "Elevated Flare Upgrade",
       description: [
@@ -94,7 +94,7 @@ export const PROJECTS_INFO = [
   },
   {
     id: 4,
-    name: "Project 5",
+    name: "Dense Phase Ethane Energy Reduction Project",
     text: {
       title: "Dense Phase Ethane Energy Reduction Project",
       description: [
@@ -106,7 +106,7 @@ export const PROJECTS_INFO = [
   },
   {
     id: 5,
-    name: "Project 6",
+    name: "Ethane Header Protection",
     text: {
       title: "Ethane Header Protection",
       description: [

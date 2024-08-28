@@ -37,7 +37,7 @@ const CoreValues = () => {
                 <img src={card.icon} alt={card.alt} width={72} height={72} />
                 <div className="w-[50px] h-[50px] bg-primary absolute -top-1 -right-4 -z-10 rounded-lg rounded-br-2xl"></div>
               </div>
-              <p className="regular_3 text-primary text-left text-xl font-medium"><b>{card.title}</b>{card.text}</p>
+              <p className="regular_3 text-black text-left text-xl font-medium"><b>{card.title}</b>{card.text}</p>
             </CommunityCard>
           ))}
         </div>
