@@ -4,7 +4,7 @@ import Image from "next/image";
 const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
 
-  const scroll = { image: "/Icons/up-arrow.png", title: "Slide 1" }
+  const scroll = { image: "/icons/up-arrow.png", title: "Slide 1" }
   useEffect(() => {
     const toggleVisibility = () => {
       if (window.pageYOffset > 300) {
