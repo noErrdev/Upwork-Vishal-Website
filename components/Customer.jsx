@@ -7,9 +7,9 @@ const Customer = () => {
           <div className="w-full">
           <h3 className="text-black mb-2 font-bold">Vishal Brahmbhatt -  President & Founder</h3>
           <div className="regular_2 text-black text-xl">
-            Vishal is a seasoned Professional Engineer with over two decades of expertise in the oil & gas and petrochemical sectors. His impressive career includes leadership roles at industry giants such as ExxonMobil, Wood, Foster Wheeler, and Richard EPC.
-            Vishal has excelled in contracting and plant operations, bringing deep knowledge and hands-on experience to every project life cycle phase. His technical understanding spans diverse cutting-edge technologies, including Refining, Gasification, Syngas, Gas to Liquid, Olefins Ethylene Cracking, and Polyethylene.
-            Driven by a passion for engineering excellence, Vishal founded MES to create a high-value center of excellence.</div>
+          Vishal is a seasoned Professional Engineer with over two decades of expertise in the oil & gas and petrochemical sectors. His impressive career includes leadership roles at industry giants such as ExxonMobil, Wood, Foster Wheeler, and Richard EPC.
+          Vishal has excelled in contracting and plant operations, bringing deep knowledge and hands-on experience to every project life cycle phase. His technical understanding spans diverse cutting-edge technologies, including Refining, Gasification, Syngas, Gas to Liquid, Olefins Ethylene Cracking, and Polyethylene.
+          <br/>Driven by a passion for engineering excellence, Vishal founded MES to create a high-value center of excellence.</div>
           </div>
           <div className="lg:mt-0 lg:ml-8 w-full">
             <img 

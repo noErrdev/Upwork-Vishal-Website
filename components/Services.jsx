@@ -44,7 +44,7 @@ const Services = () => {
       {SERVICES_INFO.map((project) => (
       <div key={project.id} className="mb-4 z-40">
         <button
-          className="w-full text-left font-bold flex items-center justify-between text-white py-2 px-4 sm:px-8 md:px-24 lg:px-48 bg-secondary"
+          className="w-full text-left font-bold flex items-center justify-between text-white py-2 px-4 sm:px-8 md:px-24 lg:px-48 bg-primary"
           onClick={() => toggleProject(project.id)}
         >
           <div className="max-container w-full flex justify-between">
