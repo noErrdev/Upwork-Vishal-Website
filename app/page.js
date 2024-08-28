@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import Services from "@/components/Services";
 export default function Home() {
   return (
-    <div className="max-container overflow-clip relative">
+    <div className="overflow-clip relative">
       <Hero />
       <AboutUs />
       <Customer />

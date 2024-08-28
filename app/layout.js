@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className={outfit.className}>
         <Topbar/>
         <Navbar />
-        <main className="main-container overflow-hidden text-xl relative">{children}</main>
+        <main className="overflow-hidden text-xl relative">{children}</main>
         <ScrollToTopButton />
       </body>
     </html>

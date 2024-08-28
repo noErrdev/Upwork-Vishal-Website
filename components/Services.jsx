@@ -29,14 +29,16 @@ const Services = () => {
           </svg>
         </div>
       </div>
-      <div className="flex flex-col text-left justify-between px-4 sm:px-8 md:px-24 lg:px-48">
-        <div className="text-black text-left py-4">
-          <div className="mb-2">At Meeka, we tailor process designs to meet your unique business needs. Our expert chemical engineers work closely with you to identify challenges and deliver viable solutions for process upgrades and expansions.</div>
-          <div>From process design to lifecycle analysis, we are proficient in all aspects of process engineering, ensuring that your operations run as seamlessly and efficiently as possible. Our expert team is adept at strategizing and executing, guaranteeing you get the value-added consultancy service your business needs to excel.</div>
-        </div>
-        <div className="text-black text-left py-4">
-          <div className="font-bold">Our Approach</div>
-          <div>We enhance process operations through disciplined front-end loading design, offering:</div>
+      <div className="px-4 sm:px-8 md:px-24 lg:px-48">
+        <div className="max-container flex flex-col text-left justify-between ">
+          <div className="text-black text-left py-4">
+            <div className="mb-2">At Meeka, we tailor process designs to meet your unique business needs. Our expert chemical engineers work closely with you to identify challenges and deliver viable solutions for process upgrades and expansions.</div>
+            <div>From process design to lifecycle analysis, we are proficient in all aspects of process engineering, ensuring that your operations run as seamlessly and efficiently as possible. Our expert team is adept at strategizing and executing, guaranteeing you get the value-added consultancy service your business needs to excel.</div>
+          </div>
+          <div className="text-black text-left py-4">
+            <div className="font-bold">Our Approach</div>
+            <div>We enhance process operations through disciplined front-end loading design, offering:</div>
+          </div>
         </div>
       </div>
       {SERVICES_INFO.map((project) => (
@@ -45,24 +47,30 @@ const Services = () => {
           className="w-full text-left font-bold flex items-center justify-between text-white py-2 px-4 sm:px-8 md:px-24 lg:px-48 bg-secondary"
           onClick={() => toggleProject(project.id)}
         >
-          <div>{project.name}</div>
-          <div className="text-sm">{openProjectId === project.id ? '▼' : '▶'}</div> 
+          <div className="max-container w-full flex justify-between">
+            <div>{project.name}</div>
+            <div className="text-sm">{openProjectId === project.id ? '▼' : '▶'}</div> 
+          </div>
         </button>
         {openProjectId === project.id && (
-          <div className="py-4 px-4 sm:px-8 md:px-24 lg:px-48 text-left text-primary z-5">
-            <div className="font-bold">{project.text.title}</div>
-            {project.text.description.map((desc, index) => (
-              <div key={index} className="text-primary flex items-baseline">
-                <p className="inline text-[10px] mr-1">▶</p>{desc}
-              </div>
-            ))}
+          <div className="py-4 px-4 sm:px-8 md:px-24 lg:px-48">
+            <div className="max-container text-left text-primary z-5">
+              <div className="font-bold">{project.text.title}</div>
+              {project.text.description.map((desc, index) => (
+                <div key={index} className="text-primary flex items-baseline">
+                  <p className="inline text-[10px] mr-1">▶</p>{desc}
+                </div>
+              ))}
+            </div>
           </div>
         )}
       </div>
     ))}
-    <div className="text-black text-left px-4 sm:px-8 md:px-24 lg:px-48 py-4">
-      <div className="font-bold">Efficiency & Risk Management</div>
-      <div>Our detailed design packages minimize risks and maximize efficiency, reliability, and safety. Partner with us for superior, tailored process design solutions.</div>
+    <div className="px-4 sm:px-8 md:px-24 lg:px-48 ">
+      <div className="max-container text-black text-left py-4">
+        <div className="font-bold">Efficiency & Risk Management</div>
+        <div>Our detailed design packages minimize risks and maximize efficiency, reliability, and safety. Partner with us for superior, tailored process design solutions.</div>
+      </div>
     </div>
     </section>
   );

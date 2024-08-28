@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="main-container flex flex-col text-center bg-primary py-8 px-4 sm:px-8 md:px-24 lg:px-48 relative" id="about">
+    <section className="flex flex-col text-center bg-primary py-8 px-4 sm:px-8 md:px-24 lg:px-48 relative" id="about">
       <div 
         className="absolute -top-2 left-0 w-full h-[10px] bg-repeat"
         style={{
@@ -10,7 +10,7 @@ const AboutUs = () => {
           backgroundSize: "auto",
         }}
       ></div>
-      <div className="relative z-20">
+      <div className="max-container relative z-20">
         <div className="flex items-center justify-center mb-8">
           <svg width="18" height="18" viewBox="0 0 16 16" className="mr-0">
             <path d="M8 1 Q7 0 6 1 L1 6 Q0 7 1 8 L6 13 Q7 14 8 13 L13 8 Q14 7 13 6 L8 1 Z" fill="#88c64b" />

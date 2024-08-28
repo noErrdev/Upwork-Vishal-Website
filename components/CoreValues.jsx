@@ -4,7 +4,7 @@ import CommunityCard from "./CommunityCard";
 
 const CoreValues = () => {
   return (
-    <section className="main-container flex flex-col justify-center text-center mb-8 bg-secondary px-4 sm:px-8 md:px-24 lg:px-48 py-8 relative" id="feature">
+    <section className="flex flex-col justify-center text-center mb-8 bg-secondary px-4 sm:px-8 md:px-24 lg:px-48 py-8 relative" id="feature">
       <div 
         className="absolute -top-2 left-0 w-full h-[12px] bg-repeat"
         style={{
@@ -29,7 +29,7 @@ const CoreValues = () => {
           <path d="M8 1 Q7 0 6 1 L1 6 Q0 7 1 8 L6 13 Q7 14 8 13 L13 8 Q14 7 13 6 L8 1 Z" fill="#224194" />
         </svg>
       </div>
-      <div className="">
+      <div className="max-container">
         <div className="grid grid-cols-1 justify-between mx-auto xl:grid-cols-3 ">
           {COMMUNITY_CARDS_INFO.map((card) => (
             <CommunityCard key={card.id}>

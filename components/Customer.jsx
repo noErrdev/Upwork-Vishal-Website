@@ -1,7 +1,8 @@
 import React from "react";
 const Customer = () => {
   return (
-    <section className="main-container bg-white py-16 px-4 sm:px-8 md:px-24 lg:px-48">
+    <section className="bg-white py-16 px-4 sm:px-8 md:px-24 lg:px-48">
+      <div className="max-container">
       <div className="flex flex-col justify-between gap-4 xl:flex-row xl:m-0 items-center">
         <div className="w-full">
         <h3 className="text-black mb-2 font-bold">Vishal Brahmbhatt -  President & Founder</h3>
@@ -21,6 +22,7 @@ const Customer = () => {
         </div>
       </div>
       <div className="mt-4">Under his visionary leadership, MES delivers seamless &ldquo;concept to commissioning&rdquo; process engineering solutions backed by a multidisciplinary team committed to innovation, development, and the advancement of the engineering profession. Vishal is dedicated to cultivating a company culture where creativity, technical brilliance, and a relentless pursuit of excellence thrive.</div>
+      </div>
     </section>
   );
 };

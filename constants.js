@@ -114,7 +114,7 @@ export const PROJECTS_INFO = [
         "Developed a strategic scope leveraging existing taps to install three SHE (Safety, Health, and Environmental) critical transmitters for the SIS trip of the ESV."
       ]
     },
-    src: "/projects/6.jpeg",
+    src: "/projects/project-06-image.png",
   },
 ];
 export const SERVICES_INFO = [
