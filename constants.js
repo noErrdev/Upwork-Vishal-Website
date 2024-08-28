@@ -182,7 +182,7 @@ export const FOOTER_SOCIALS_ICONS = [
   },
   {
     id: 2,
-    title: "832 846 9941",
+    title: "361-434-0654",
     icon: "/socials/icon-phone-bottom.png",
     alt: "alt",
   },

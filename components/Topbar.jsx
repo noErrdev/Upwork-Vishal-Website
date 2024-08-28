@@ -8,7 +8,7 @@ const Topbar = () => {
         <div className="">
           <div className="flex gap-x-4 justify-around md:justify-end">
             <div className="flex items-center gap-x-2"><img src="/socials/icon-email-top.png" alt="email" width={32} height={32}></img><div className="text-white">Info@MeekaEng.com</div></div>
-            <div className="flex items-center gap-x-2"><img src="/socials/icon-phone-top.png" alt="phone" width={32} height={32}></img><div className="text-white">832 846 9941</div></div>
+            <div className="flex items-center gap-x-2"><img src="/socials/icon-phone-top.png" alt="phone" width={32} height={32}></img><div className="text-white">361-434-0654</div></div>
           </div>
         </div>
       </div>
