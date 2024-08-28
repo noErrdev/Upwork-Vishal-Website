@@ -49,10 +49,14 @@ const Services = () => {
         >
           <div className="max-container w-full flex justify-between">
             <div>{project.name}</div>
-            <div className="text-sm">{openProjectId === project.id ? '▼' : '▶'}</div> 
+            <div className="text-sm ">{openProjectId === project.id ? '▼' : '▶'}</div> 
           </div>
         </button>
-        {openProjectId === project.id && (
+        <div 
+          className={`overflow-hidden transition-all duration-500 ease-in-out ${
+            openProjectId === project.id ? 'max-h-[1000px] opacity-100' : 'max-h-0 opacity-0'
+          }`}
+        >
           <div className="py-4 px-4 sm:px-8 md:px-24 lg:px-48">
             <div className="max-container text-left text-primary z-5">
               <div className="font-bold">{project.text.title}</div>
@@ -63,7 +67,7 @@ const Services = () => {
               ))}
             </div>
           </div>
-        )}
+        </div>
       </div>
     ))}
     <div className="px-4 sm:px-8 md:px-24 lg:px-48 ">

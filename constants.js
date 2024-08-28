@@ -1,8 +1,8 @@
 export const NAV_LINKS = [
-  { id: 0, title: "About US", url: "/#about" },
-  { id: 1, title: "Core Values", url: "/#feature" },
-  { id: 2, title: "Services", url: "/#services" },
-  { id: 3, title: "Projects", url: "/#projects" },
+  { id: "about", title: "About US", url: "/#about" },
+  { id: "feature", title: "Core Values", url: "/#feature" },
+  { id: "services", title: "Services", url: "/#services" },
+  { id: "projects", title: "Projects", url: "/#projects" },
 ];
 
 export const COMMUNITY_CARDS_INFO = [

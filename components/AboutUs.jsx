@@ -34,7 +34,7 @@ const AboutUs = () => {
         </div>
       </div>
       <div 
-        className="absolute -bottom-2 left-0 w-full h-[12px] bg-repeat"
+        className="absolute -bottom-2 left-0 w-full h-[11px] bg-repeat"
         style={{
           backgroundImage: "url('/design-blue-bottom.png')",
           backgroundSize: "auto",

@@ -36,10 +36,14 @@ const Projects = () => {
             <div className="text-sm">{openProjectId === project.id ? '▼' : '▶'}</div> 
           </div>
         </button>
-        {openProjectId === project.id && (
+        <div 
+          className={`overflow-hidden transition-all duration-500 ease-in-out ${
+            openProjectId === project.id ? 'max-h-[1000px] opacity-100' : 'max-h-0 opacity-0'
+          }`}
+        >
           <div className="px-4 sm:px-8 md:px-24 lg:px-48">
-            <div className="max-container py-4  text-left text-white">
-              <div className="font-bold ">{project.text.title}</div>
+            <div className="max-container py-4 text-left text-white">
+              <div className="font-bold">{project.text.title}</div>
               {project.text.description.map((desc, index) => (
                 <div key={index} className="text-white flex items-baseline">
                   <p className="inline text-[10px] mr-1">▶</p>{desc}
@@ -50,7 +54,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        )}
+        </div>
       </div>
       ))}
       <div 
