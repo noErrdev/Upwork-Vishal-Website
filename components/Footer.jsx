@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="max-container bg-white text-sm pb-8 pt-0 px-4 sm:px-8 md:px-24 lg:px-48 overflow-hidden">
+    <footer className="max-container bg-white text-sm py-8 px-4 sm:px-8 md:px-24 lg:px-48 overflow-hidden">
       <div className="flex flex-col gap-y-4 justify-center items-center">
         <div className="flex flex-col gap-4 justify-between md:flex-row">
           {FOOTER_SOCIALS_ICONS.map((icon) => (

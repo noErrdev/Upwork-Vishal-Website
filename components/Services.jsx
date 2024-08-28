@@ -9,7 +9,7 @@ const Services = () => {
     setOpenProjectId(prevId => prevId === id ? null : id);
   };
   return (
-    <section className="flex flex-col text-center bg-white" id="services">
+    <section className="flex flex-col text-center bg-white py-8" id="services">
       <div className="relative">
         <div className="flex items-center justify-center mb-4">
           <svg width="18" height="18" viewBox="0 0 16 16" className="mr-0">

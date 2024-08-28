@@ -4,7 +4,7 @@ import CommunityCard from "./CommunityCard";
 
 const CoreValues = () => {
   return (
-    <section className="flex flex-col justify-center text-center mb-8 bg-white px-4 sm:px-8 md:px-24 lg:px-48 py-8 relative" id="feature">
+    <section className="flex flex-col justify-center text-center mb-8 bg-gray-100 px-4 sm:px-8 md:px-24 lg:px-48 py-8 relative" id="feature">
       {/* <div 
         className="absolute -top-2 left-0 w-full h-[12px] bg-repeat"
         style={{
