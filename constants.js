@@ -51,7 +51,7 @@ export const PROJECTS_INFO = [
       title: "Debutanizer Vacuum Prevention",
       description: [
         "Strategically optimized the project scope by implementing rupture disk installation, resulting in a remarkable 75% reduction from the initial estimate provided at Gate 1 TEC (Total Estimated Cost).",
-        "Collaborated with a diverse cross-functional team to address vacuum conditions in the tower during relief scenarios and to mitigate RC2 SHE risks with a $480/IRU and DCF of 3765%."
+        "Collaborated with a diverse cross-functional team to address vacuum conditions in the tower during relief scenarios and to mitigate RC2 SHE risk and potential financial loss of $5M"
       ]
     },
     src: "/projects/project-01-image.png",
@@ -74,8 +74,8 @@ export const PROJECTS_INFO = [
     text: {
       title: "Fractionator Debottleneck Study",
       description: [
-        "Strategically optimized the project scope by implementing rupture disk installation, resulting in a remarkable 75% reduction from the initial estimate provided at Gate 1 TEC (Total Estimated Cost).",
-        "Collaborated with a diverse cross-functional team to address vacuum conditions in the tower during relief scenarios and to mitigate RC2 SHE risks with a $480/IRU and DCF of 3765%."
+        "Performed De-ethanizer Debottleneck Study to increase the natural gas throughput from 63K BPD to 70K BPD for the Natural Gas Fractionation plan, Robstown, TX.",
+        "Evaluated the distillation column, overhead condenser, reboiler, and refrigeration package utilizing the HYSYS model and analyzed Shell & tube heat exchangers utilizing ASPEN EDR."
       ]
     },
     src: "/projects/project-03-image.png",
@@ -186,10 +186,10 @@ export const FOOTER_SOCIALS_ICONS = [
     icon: "/socials/icon-phone-bottom.png",
     alt: "alt",
   },
-  {
-    id: 3,
-    title: "MeekaEng@linkedin.com",
-    icon: "/socials/icon-linkdin-bottom.png",
-    alt: "alt",
-  },
+  // {
+  //   id: 3,
+  //   title: "MeekaEng@linkedin.com",
+  //   icon: "/socials/icon-linkdin-bottom.png",
+  //   alt: "alt",
+  // },
 ];
