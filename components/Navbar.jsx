@@ -10,7 +10,7 @@ const Navbar = () => {
     e.preventDefault();
     const element = document.getElementById(id);
     if (element) {
-      const yOffset = -80; // Adjust this value based on your navbar height
+      const yOffset = -0; // Adjust this value based on your navbar height
       const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({ top: y, behavior: 'smooth' });
     }

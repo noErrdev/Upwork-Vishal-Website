@@ -9,20 +9,20 @@ const Projects = () => {
     setOpenProjectId(prevId => prevId === id ? null : id);
   };
   return (
-    <section className="flex flex-col text-center py-8 bg-primary relative" id="projects">
+    <section className="flex flex-col text-center py-8 bg-white relative" id="projects">
       <div className="flex items-center justify-center mb-8">
         <svg width="18" height="18" viewBox="0 0 16 16" className="mr-0">
-          <path d="M8 1 Q7 0 6 1 L1 6 Q0 7 1 8 L6 13 Q7 14 8 13 L13 8 Q14 7 13 6 L8 1 Z" fill="#88c64b" />
+          <path d="M8 1 Q7 0 6 1 L1 6 Q0 7 1 8 L6 13 Q7 14 8 13 L13 8 Q14 7 13 6 L8 1 Z" fill="#224194" />
         </svg>
         <svg width="18" height="18" viewBox="0 0 16 16" className="mr-0">
           <path d="M8 1 Q7 0 6 1 L1 6 Q0 7 1 8 L6 13 Q7 14 8 13 L13 8 Q14 7 13 6 L8 1 Z" fill="#88c64b" />
         </svg>
-        <h2 className="text-white mx-2 font-medium">Projects</h2>
+        <h2 className="text-primary mx-2 font-medium">Projects</h2>
         <svg width="18" height="18" viewBox="0 0 16 16" className="ml-0">
           <path d="M8 1 Q7 0 6 1 L1 6 Q0 7 1 8 L6 13 Q7 14 8 13 L13 8 Q14 7 13 6 L8 1 Z" fill="#88c64b" />
         </svg>
         <svg width="18" height="18" viewBox="0 0 16 16" className="ml-0">
-          <path d="M8 1 Q7 0 6 1 L1 6 Q0 7 1 8 L6 13 Q7 14 8 13 L13 8 Q14 7 13 6 L8 1 Z" fill="#88c64b" />
+          <path d="M8 1 Q7 0 6 1 L1 6 Q0 7 1 8 L6 13 Q7 14 8 13 L13 8 Q14 7 13 6 L8 1 Z" fill="#224194" />
         </svg>
       </div>
       {PROJECTS_INFO.map((project) => (
@@ -42,29 +42,29 @@ const Projects = () => {
           }`}
         >
           <div className="px-4 sm:px-8 md:px-24 lg:px-48">
-            <div className="max-container py-4 text-left text-white">
+            <div className="max-container py-4 text-left text-black">
               <div className="font-bold">{project.text.title}</div>
               {project.text.description.map((desc, index) => (
-                <div key={index} className="text-white flex items-baseline">
+                <div key={index} className="text-black flex items-baseline">
                   <p className="inline text-[10px] mr-1">▶</p>{desc}
                 </div>
               ))}
               <div className="flex justify-center mx-auto mt-4">
-                <img src={project.src} alt={project.name} width={900} height={400} objectFit="cover" layout="responsive" className="rounded-xl"/>
+                <img src={project.src} alt={project.name} width={900} height={400} objectFit="cover" layout="responsive" className="border-4 border-solid border-[#88c64b] rounded-tl-[100px] rounded-br-[100px]"/>
               </div>
             </div>
           </div>
         </div>
       </div>
       ))}
-      <div 
+      {/* <div 
         className="absolute -bottom-2 left-0 w-full h-[12px] bg-repeat z-10"
         style={{
           backgroundImage: "url('/design-blue-bottom.png')",
           backgroundSize: "auto",
         }}
       >            
-      </div>
+      </div> */}
     
     </section>
   );
