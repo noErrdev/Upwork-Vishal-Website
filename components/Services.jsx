@@ -59,7 +59,6 @@ const Services = () => {
         >
           <div className="py-4 px-4 sm:px-8 md:px-24 lg:px-48">
             <div className="max-container text-left text-primary z-5">
-              <div className="font-bold">{project.text.title}</div>
               {project.text.description.map((desc, index) => (
                 <div key={index} className="text-black flex items-baseline">
                   <p className="inline text-[10px] mr-1">▶</p>{desc}
