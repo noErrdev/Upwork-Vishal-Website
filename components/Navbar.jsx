@@ -18,10 +18,18 @@ const Navbar = () => {
   };
 
   return (
-    <div className="px-4 sm:px-8 md:px-24 lg:px-36 xl:px-48 flex flex-col z-50 shadow-md relative">
+    <div className="sm:px-8 md:px-24 lg:px-36 xl:px-48 flex flex-col z-50 shadow-md relative">
       <div className="w-full">
-        <nav className="max-container bg-white flex justify-between items-center py-4">
-          <Image src="/logo.jpg" alt="Logo" width={400} height={300} className="hidden sm:block"/>
+        <nav className="max-container bg-white flex justify-between items-center py-2 lg:py-4">
+        <div className="flex-shrink-0 w-2/3 sm:w-auto max-w-[150px] sm:max-w-[200px] md:max-w-[250px] lg:max-w-[350px]">
+          <Image 
+            src="/logo.jpg" 
+            alt="Logo" 
+            width={400} 
+            height={300} 
+            className="w-full h-auto object-contain"
+          />
+        </div>
           <ul
             className={`lg:flex ${
               isOpen
